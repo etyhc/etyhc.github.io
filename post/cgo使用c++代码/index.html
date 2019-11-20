@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>标签 - 超时技术</title>
+  <title>CGO使用c&#43;&#43;库 - 超时技术</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="超时" /><meta name="description" content="超时技术." /><meta name="keywords" content="超时, 技术" />
+<meta name="author" content="超时" /><meta name="description" content="先将C&#43;&#43;库用C封装一下，如下: 1.定义C接口头文件wrapc.h #ifdef _cplusplus extern &amp;ldquo;C&amp;rdquo; { #endif //TODO 定义C接口 #ifdef _cplusplus } #endif 2.实现C接口文件wrapc.cpp #include &amp;ldquo;wrapc.h&amp;rdquo; //TODO" /><meta name="keywords" content="超时, 技术" />
 
 
 
@@ -26,9 +26,7 @@
 <meta name="generator" content="Hugo 0.59.0 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/tags/" />
-  <link href="http://localhost:1313/tags/index.xml" rel="alternate" type="application/rss+xml" title="超时技术" />
-  <link href="http://localhost:1313/tags/index.xml" rel="feed" type="application/rss+xml" title="超时技术" />
+<link rel="canonical" href="http://localhost:1313/post/cgo%E4%BD%BF%E7%94%A8c&#43;&#43;%E4%BB%A3%E7%A0%81/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,18 +38,26 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="超时技术." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/tags/" />
+<meta property="og:title" content="CGO使用c&#43;&#43;库" />
+<meta property="og:description" content="先将C&#43;&#43;库用C封装一下，如下: 1.定义C接口头文件wrapc.h #ifdef _cplusplus extern &ldquo;C&rdquo; { #endif //TODO 定义C接口 #ifdef _cplusplus } #endif 2.实现C接口文件wrapc.cpp #include &ldquo;wrapc.h&rdquo; //TODO" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/cgo%E4%BD%BF%E7%94%A8c&#43;&#43;%E4%BB%A3%E7%A0%81/" />
+<meta property="article:published_time" content="2019-11-20T17:51:17+08:00" />
+<meta property="article:modified_time" content="2019-11-20T17:51:17+08:00" />
+<meta itemprop="name" content="CGO使用c&#43;&#43;库">
+<meta itemprop="description" content="先将C&#43;&#43;库用C封装一下，如下: 1.定义C接口头文件wrapc.h #ifdef _cplusplus extern &ldquo;C&rdquo; { #endif //TODO 定义C接口 #ifdef _cplusplus } #endif 2.实现C接口文件wrapc.cpp #include &ldquo;wrapc.h&rdquo; //TODO">
 
-<meta property="og:updated_time" content="2019-11-20T17:51:17+08:00" />
-<meta itemprop="name" content="Tags">
-<meta itemprop="description" content="超时技术.">
 
+<meta itemprop="datePublished" content="2019-11-20T17:51:17&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-20T17:51:17&#43;08:00" />
+<meta itemprop="wordCount" content="118">
+
+
+
+<meta itemprop="keywords" content="CGO,C&#43;&#43;," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="超时技术."/>
+<meta name="twitter:title" content="CGO使用c&#43;&#43;库"/>
+<meta name="twitter:description" content="先将C&#43;&#43;库用C封装一下，如下: 1.定义C接口头文件wrapc.h #ifdef _cplusplus extern &ldquo;C&rdquo; { #endif //TODO 定义C接口 #ifdef _cplusplus } #endif 2.实现C接口文件wrapc.cpp #include &ldquo;wrapc.h&rdquo; //TODO"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -111,39 +117,111 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <div class="terms">
-      <div class="terms-title">
-        共计 5 个标签
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">CGO使用c&#43;&#43;库</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-11-20 </span>
+        
+        
       </div>
-      <div class="terms-tags">
-          <a class="terms-link" href="/tags/c&#43;&#43;/">
-            c&#43;&#43;
-            <span class="terms-count">1</span>
-          </a>
-        
-          <a class="terms-link" href="/tags/cgo/">
-            cgo
-            <span class="terms-count">1</span>
-          </a>
-        
-          <a class="terms-link" href="/tags/v2ray-plugin/">
-            v2ray-plugin
-            <span class="terms-count">1</span>
-          </a>
-        
-          <a class="terms-link" href="/tags/v2ray-pluin-android/">
-            v2ray-pluin-android
-            <span class="terms-count">1</span>
-          </a>
-        
-          <a class="terms-link" href="/tags/%E8%87%AA%E7%AD%BE%E5%90%8D/">
-            自签名
-            <span class="terms-count">1</span>
-          </a>
-        </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    
+  </div>
+</div>
+    <div class="post-content">
+      <p>先将C++库用C封装一下，如下:</p>
+
+<p>1.定义C接口头文件wrapc.h</p>
+
+<blockquote>
+<p>#ifdef _cplusplus</p>
+
+<p>extern &ldquo;C&rdquo; {</p>
+
+<p>#endif</p>
+
+<p><br>//TODO 定义C接口</p>
+
+<p><br>#ifdef _cplusplus</p>
+
+<p>}</p>
+
+<p>#endif</p>
+</blockquote>
+
+<p>2.实现C接口文件wrapc.cpp</p>
+
+<blockquote>
+<p>#include &ldquo;wrapc.h&rdquo;</p>
+
+<p><br>//TODO 实现C接口</p>
+</blockquote>
+
+<p>3.g++编译成静态库</p>
+
+<blockquote>
+<p>g++ -c wrapc.cpp</p>
+
+<p>ar rc libwrapc.a wrapc.o</p>
+</blockquote>
+
+<p>4.CGO封装 wrapc.go</p>
+
+<blockquote>
+<p>// #cgo CFLAGS: -I.</p>
+
+<p>// #cgo LDFLAGS: -L. -lwarpc -lcpplibname</p>
+
+<p>import &ldquo;C&rdquo;</p>
+
+<p><br>//TODO go封装</p>
+</blockquote>
+
     </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">超时</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2019-11-20
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/cgo/">CGO</a>
+          <a href="/tags/c&#43;&#43;/">C&#43;&#43;</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/%E4%BF%AE%E6%94%B9v2ray-plugin%E6%BA%90%E7%A0%81%E6%94%AF%E6%8C%81%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6/">
+            <span class="next-text nav-default">修改v2ray-plugin源码支持自签名证书</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
         </div>
         
+
+  
+
+  
 
       </div>
     </main>

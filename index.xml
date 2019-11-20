@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>超时技术</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>超时</copyright>
-    <lastBuildDate>Thu, 10 Oct 2019 14:45:05 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2019 17:51:17 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       
       <guid>http://localhost:1313/about/</guid>
       <description>超时的技术博客 杂而不精，不成系统，健忘 擅长底层设计，解决没解决过的问题</description>
+    </item>
+    
+    <item>
+      <title>CGO使用c&#43;&#43;库</title>
+      <link>http://localhost:1313/post/cgo%E4%BD%BF%E7%94%A8c&#43;&#43;%E4%BB%A3%E7%A0%81/</link>
+      <pubDate>Wed, 20 Nov 2019 17:51:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/cgo%E4%BD%BF%E7%94%A8c&#43;&#43;%E4%BB%A3%E7%A0%81/</guid>
+      <description>先将C++库用C封装一下，如下: 1.定义C接口头文件wrapc.h #ifdef _cplusplus extern &amp;ldquo;C&amp;rdquo; { #endif //TODO 定义C接口 #ifdef _cplusplus } #endif 2.实现C接口文件wrapc.cpp #include &amp;ldquo;wrapc.h&amp;rdquo; //TODO</description>
     </item>
     
     <item>
