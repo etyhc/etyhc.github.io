@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.59.0 with theme even" />
+<meta name="generator" content="Hugo 0.61.0 with theme even" />
 
 
 <link rel="canonical" href="http://localhost:1313/" />
@@ -44,12 +44,9 @@
 <meta property="og:description" content="超时技术." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:1313/" />
-
-<meta property="og:updated_time" content="2019-11-20T17:51:17+08:00" />
+<meta property="og:updated_time" content="2019-12-18T18:21:08+08:00" />
 <meta itemprop="name" content="超时技术">
-<meta itemprop="description" content="超时技术.">
-
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="超时技术."><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="超时技术"/>
 <meta name="twitter:description" content="超时技术."/>
 
@@ -114,6 +111,25 @@
           <section id="posts" class="posts">
     <article class="post">
   <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/golang%E7%9A%84structbyte%E4%B8%8E%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/">Golang的struct,[]byte与内存对齐</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2019-12-18 </span>
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      struct大小 golang中计算struct的大小使用binary.Size()，计算占用内存大小unsafe.Sizeof() 这2个结果
+    </div>
+    <div class="read-more">
+      <a href="/post/golang%E7%9A%84structbyte%E4%B8%8E%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/" class="read-more-link">阅读更多</a>
+    </div>
+  </div>
+</article>
+
+    <article class="post">
+  <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/cgo%E4%BD%BF%E7%94%A8c&#43;&#43;%E4%BB%A3%E7%A0%81/">CGO使用c&#43;&#43;库</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2019-11-20 </span>
@@ -123,7 +139,7 @@
   
   <div class="post-content">
     <div class="post-summary">
-      先将C++库用C封装一下，如下: 1.定义C接口头文件wrapc.h #ifdef _cplusplus extern &ldquo;C&rdquo; { #endif //TODO 定义C接口 #ifdef _cplusplus } #endif 2.实现C接口文件wrapc.cpp #include &ldquo;wrapc.h&rdquo; //TODO
+      将C++库用C封装一下。 示例如下: 1.定义C接口头文件wrapc.h 1 2 3 4 5 6 7 8 9 #ifdef _cplusplusextern &#34;C&#34; { #endif //TODO 定义C接口 #ifdef _cplusplus} #endif 2.实现C接口文件wrap
     </div>
     <div class="read-more">
       <a href="/post/cgo%E4%BD%BF%E7%94%A8c&#43;&#43;%E4%BB%A3%E7%A0%81/" class="read-more-link">阅读更多</a>
@@ -142,7 +158,7 @@
   
   <div class="post-content">
     <div class="post-summary">
-      v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plugi
+      v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 1 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plug
     </div>
     <div class="read-more">
       <a href="/post/%E4%BF%AE%E6%94%B9v2ray-plugin%E6%BA%90%E7%A0%81%E6%94%AF%E6%8C%81%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6/" class="read-more-link">阅读更多</a>

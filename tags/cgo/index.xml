@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Nov 2019 17:51:17 +0800</pubDate>
       
       <guid>http://localhost:1313/post/cgo%E4%BD%BF%E7%94%A8c&#43;&#43;%E4%BB%A3%E7%A0%81/</guid>
-      <description>先将C++库用C封装一下，如下: 1.定义C接口头文件wrapc.h #ifdef _cplusplus extern &amp;ldquo;C&amp;rdquo; { #endif //TODO 定义C接口 #ifdef _cplusplus } #endif 2.实现C接口文件wrapc.cpp #include &amp;ldquo;wrapc.h&amp;rdquo; //TODO</description>
+      <description>将C++库用C封装一下。 示例如下: 1.定义C接口头文件wrapc.h 1 2 3 4 5 6 7 8 9 #ifdef _cplusplusextern &amp;#34;C&amp;#34; { #endif //TODO 定义C接口 #ifdef _cplusplus} #endif 2.实现C接口文件wrap</description>
     </item>
     
   </channel>

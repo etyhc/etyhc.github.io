@@ -16,14 +16,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="超时" /><meta name="description" content="v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plugi" /><meta name="keywords" content="超时, 技术" />
+<meta name="author" content="超时" /><meta name="description" content="v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 1 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plug" /><meta name="keywords" content="超时, 技术" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.59.0 with theme even" />
+<meta name="generator" content="Hugo 0.61.0 with theme even" />
 
 
 <link rel="canonical" href="http://localhost:1313/post/%E4%BF%AE%E6%94%B9v2ray-plugin%E6%BA%90%E7%A0%81%E6%94%AF%E6%8C%81%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6/" />
@@ -39,25 +39,22 @@
 
 
 <meta property="og:title" content="修改v2ray-plugin源码支持自签名证书" />
-<meta property="og:description" content="v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plugi" />
+<meta property="og:description" content="v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 1 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plug" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/%E4%BF%AE%E6%94%B9v2ray-plugin%E6%BA%90%E7%A0%81%E6%94%AF%E6%8C%81%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6/" />
 <meta property="article:published_time" content="2019-10-10T14:45:05+08:00" />
 <meta property="article:modified_time" content="2019-10-10T14:45:05+08:00" />
 <meta itemprop="name" content="修改v2ray-plugin源码支持自签名证书">
-<meta itemprop="description" content="v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plugi">
-
-
+<meta itemprop="description" content="v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 1 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plug">
 <meta itemprop="datePublished" content="2019-10-10T14:45:05&#43;08:00" />
 <meta itemprop="dateModified" content="2019-10-10T14:45:05&#43;08:00" />
-<meta itemprop="wordCount" content="81">
+<meta itemprop="wordCount" content="82">
 
 
 
-<meta itemprop="keywords" content="v2ray-plugin,自签名,v2ray-pluin-android," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="v2ray-plugin,自签名,v2ray-pluin-android," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="修改v2ray-plugin源码支持自签名证书"/>
-<meta name="twitter:description" content="v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plugi"/>
+<meta name="twitter:description" content="v2ray-plugin默认不支持自签名证书，不太方便 修改方法： 初始化tlsConfig的时候加一行 1 tlsConfig.AllowInsecure = true 重新编译即可 v2ray-plug"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -132,22 +129,22 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
     <div class="post-content">
       <p><a href="https://github.com/shadowsocks/v2ray-plugin">v2ray-plugin</a>默认不支持自签名证书，不太方便</p>
-
 <p>修改方法：</p>
-
 <p>初始化tlsConfig的时候加一行</p>
-
-<blockquote>
-<p>tlsConfig.AllowInsecure = true</p>
-</blockquote>
-
-<p>重新编译即可</p>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">tlsConfig</span><span class="p">.</span><span class="nx">AllowInsecure</span> <span class="p">=</span> <span class="kc">true</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>重新编译即可</p>
 <p><a href="https://github.com/shadowsocks/v2ray-plugin-android">v2ray-plugin-android</a>亦可</p>
 
     </div>

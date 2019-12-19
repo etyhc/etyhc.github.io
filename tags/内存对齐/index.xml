@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>内存对齐 on 超时技术</title>
+    <link>http://localhost:1313/tags/%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</link>
+    <description>Recent content in 内存对齐 on 超时技术</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>超时</copyright>
+    <lastBuildDate>Wed, 18 Dec 2019 18:21:08 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang的struct,[]byte与内存对齐</title>
+      <link>http://localhost:1313/post/golang%E7%9A%84structbyte%E4%B8%8E%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</link>
+      <pubDate>Wed, 18 Dec 2019 18:21:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/golang%E7%9A%84structbyte%E4%B8%8E%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</guid>
+      <description>struct大小 golang中计算struct的大小使用binary.Size()，计算占用内存大小unsafe.Sizeof() 这2个结果</description>
+    </item>
+    
+  </channel>
+</rss>

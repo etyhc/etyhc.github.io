@@ -8,6 +8,55 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/golang/</loc>
+    <lastmod>2019-12-18T18:21:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/golang%E7%9A%84structbyte%E4%B8%8E%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</loc>
+    <lastmod>2019-12-18T18:21:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2019-12-18T18:21:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/struct/</loc>
+    <lastmod>2019-12-18T18:21:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2019-12-18T18:21:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</loc>
+    <lastmod>2019-12-18T18:21:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2019-12-18T18:21:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
     <lastmod>2019-11-20T17:51:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,27 +72,6 @@
   
   <url>
     <loc>http://localhost:1313/post/cgo%E4%BD%BF%E7%94%A8c&#43;&#43;%E4%BB%A3%E7%A0%81/</loc>
-    <lastmod>2019-11-20T17:51:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2019-11-20T17:51:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2019-11-20T17:51:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2019-11-20T17:51:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
